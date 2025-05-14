@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Seleção de Produtos</title>
+
+</head>
+<body>
+
+    <h2>Selecione os melhores idolos pra premiar:</h2><br><br>
+
+    <div class="container">
+        <div id="div1" class="box d-grid gap-2 col-6 mx-auto">
+            <h3>Idolos</h3>
+			
+            <button type="button" style="" class="item" onclick="disable(0)">Miku</button>
+			<button type="button" style="" class="item" onclick="disable(1)">Teto</button>
+			<button type="button" style="" class="item" onclick="disable(2)">Kaai Yuki</button>
+			<button type="button" style="" class="item" onclick="disable(3)">Rin</button>
+			<button type="button" style="" class="item" onclick="disable(4)">Len</button>
+			<button type="button" style="" class="item" onclick="disable(5)">Ado</button>
+			<button type="button" style="" class="item" onclick="disable(6)">Maretu</button>
+        </div>
+        <div id="div2" class="box d-grid gap-2 col-6 mx-auto">
+            <h3>Mural da fama</h3> 
+			
+			<button type="button" style="" class="hallo item" onclick="Listdisable(0)"></button>
+			<button type="button" style="" class="hallo item" onclick="Listdisable(1)"></button>
+			<button type="button" style="" class="hallo item" onclick="Listdisable(2)"></button>
+			<button type="button" style="" class="hallo item" onclick="Listdisable(3)"></button>
+			<button type="button" style="" class="hallo item" onclick="Listdisable(4)"></button>
+			<button type="button" style="" class="hallo item" onclick="Listdisable(5)"></button>
+			<button type="button" style="" class="hallo item " onclick="Listdisable(6)"></button>
+			
+        </div>
+    </div>
+    <br>
+	<div class="buto">
+		<button type="button" class="RemoverLinguagens btn btn- but"  onclick=" move()">Adicionar</button> 
+        <button type="button" class="AdicionarLinguagens btn btn- but" onclick=" sai()">Remover</button>
+	</div>
+</body>
+</html>
+<script src="js/js.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>

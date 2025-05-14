@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+	background-color:#C3ABD4;
+}
+.container {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 300px;
+    min-height: 450px;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+	background-color: white;
+	
+}
+.item {
+	display: flex;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+.buto{
+	display: flex;
+	gap: 40px;
+}
+
+.but{
+	background-color: #8c88c2;
+}

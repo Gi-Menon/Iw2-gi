@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mover itens entre divs</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .box {
+            width: 200px;
+            min-height: 200px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .item {
+            cursor: pointer;
+            padding: 5px;
+            border-bottom: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div id="div1" class="box">
+			 <h3>Idolos</h3>
+            <button type="button" onclick="disable(0)">Miku</button>
+			<button type="button" onclick="disable(1)">Miku</button>
+			<button type="button" onclick="disable(2)">Miku</button>
+			<button type="button" onclick="disable(3)">Miku</button>
+			<button type="button" onclick="disable(4)">Miku</button>
+			<button type="button" onclick="disable(5)">Miku</button>
+			<button type="button" onclick="disable(6)">Miku</button>
+        </div>
+		<div class="btn-group my-3" role="group">
+                <button type="button" class="RemoverLinguagens btn btn-danger" onclick="move()">Adicionar</button> 
+                <button type="button" class="AdicionarLinguagens btn btn-success" onclick="sai()">Remover</button>
+            </div>
+        <div id="div2" class="box">
+             <h3>Mural da fama</h3> 
+			<button type="button" class="hallo " onclick="Listdisable(0)"></button>
+			<button type="button" class="hallo btn btn-primary" onclick="Listdisable(1)"></button>
+			<button type="button" class="hallo" onclick="Listdisable(2)"></button>
+			<button type="button" class="hallo" onclick="Listdisable(3)"></button>
+			<button type="button" class="hallo" onclick="Listdisable(4)"></button>
+			<button type="button" class="hallo" onclick="Listdisable(5)"></button>
+			<button type="button" class="hallo" onclick="Listdisable(6)"></button>
+        </div>
+    </div>
+    <br>
+    <button type="button" onclick="move()">Mover Todos</button>
+
+</body>
+	<script src="js/js.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</html>
